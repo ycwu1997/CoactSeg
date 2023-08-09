@@ -28,5 +28,5 @@ If our model is useful for your research, please consider citing:
 ### Issues
 If any other questions, feel free to contact me at 'ycwueli@gmail.com'
 
-### Acknowledgement:
+### Acknowledgement
 This repository is based on our previous [MC-Net](https://github.com/ycwu1997/MC-Net). We here also appreciate the public repositories of [SNAC](https://github.com/marianocabezas/msseg2) and [Neuropoly](https://github.com/ivadomed/ms-challenge-2021), and also thanks for the efforts to collect and share the [MSSEG-2](https://portal.fli-iam.irisa.fr/msseg-2/) dataset and our MS-23v1 dataset from Alfred Health, Australia.
