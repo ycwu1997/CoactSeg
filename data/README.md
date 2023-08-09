@@ -6,12 +6,10 @@ by Yicheng Wu*, Zhonghua Wu, Hengcan Shi, Bjoern Picker, Winston Chong, and Jian
 ```
 Due to IP restrictions, we cannot directly share the data now. Apologize for any inconvenience.
 ```
-```
 1. First, Users need to get access from '[MSBase](https://www.msbase.org/)';
-```
-```
+   
 2. Then, please check with us to obtain the annotations and corresponding IDs.
-```
+
 
 ### Citation
 If our model is useful for your research, please consider citing:
