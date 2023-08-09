@@ -9,8 +9,11 @@ Due to IP restrictions, we cannot directly share the data now. Apologize for any
 1. First, users need to get access from '[MSBase](https://www.msbase.org/)';
    
 2. Then, please check with us to obtain the annotations and corresponding IDs;
+```
+ycwueli@gmail.com
+```
 
-3. Finally, get the data and train the model under the fixed data split.
+4. Finally, get the data and train the model under the fixed data split.
 
 
 ### Citation
