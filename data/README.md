@@ -10,7 +10,7 @@ Due to IP restrictions, we cannot directly share the data now. Apologize for any
    
 2. Then, please check with us to obtain the annotations and corresponding IDs;
 
-3. Finally, train the model under our fixed data split.
+3. Finally, get the data and train the model under the fixed data split.
 
 
 ### Citation
