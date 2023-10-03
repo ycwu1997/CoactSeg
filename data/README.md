@@ -23,7 +23,10 @@ If our model is useful for your research, please consider citing:
   title={CoactSeg: Learning from Heterogeneous Data for New Multiple Sclerosis Lesion Segmentation},
   author={Wu, Yicheng and Wu, Zhonghua and Shi, Hengcan and Picker, Bjoern and Chong, Winston and Cai, Jianfei},
   booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={3--13},
+  volume={14227},
   year={2023},
+  doi={https://doi.org/10.1007/978-3-031-43993-3\_1},
   organization={Springer, Cham}
   }
 ```
