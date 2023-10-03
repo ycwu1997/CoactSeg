@@ -48,7 +48,7 @@ If our model is useful for your research, please consider citing:
 ### Issues
 The current training stage is slow and there is a trick when generating the second-time-point all-lesion result on the MSSEG-2 dataset (see [lines](https://github.com/ycwu1997/CoactSeg/blob/main/code/utils/test_patch.py) 65-66). That's because two-time-point all-lesion labels are not available for the model training and the model cannot identify such slight all-lesion differences at different time points.
 
-We are addressing the training efficiency and the input disentanglement problems. The improved CoactSeg model and original samples on our MS-23v1 dataset will be released in the future.
+We are addressing the training efficiency and the input disentanglement problems. The improved CoactSeg model will be released soon.
 
 If any other questions, feel free to contact me at 'ycwueli@gmail.com'
 
