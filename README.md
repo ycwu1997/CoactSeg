@@ -8,7 +8,7 @@ by Yicheng Wu*, Zhonghua Wu, Hengcan Shi, Bjoern Picker, Winston Chong, and Jian
 ```
 
 ### Introduction
-This repository is for our MICCAI 2023 paper: '[CoactSeg: Learning from Heterogeneous Data for New Multiple Sclerosis Lesion Segmentation](https://arxiv.org/pdf/2307.04513.pdf)' (Early Acceptance, top 14%).
+This repository is for our MICCAI 2023 paper: '[CoactSeg: Learning from Heterogeneous Data for New Multiple Sclerosis Lesion Segmentation](https://doi.org/10.1007/978-3-031-43993-3_1)' (Early Acceptance, top 14%).
 
 ### Environment
 This repository is based on PyTorch 1.8.0, CUDA 11.1, and Python 3.8.10. All experiments in our paper were conducted on a single NVIDIA Tesla V100 GPU with an identical experimental setting. 
@@ -37,7 +37,10 @@ If our model is useful for your research, please consider citing:
   title={CoactSeg: Learning from Heterogeneous Data for New Multiple Sclerosis Lesion Segmentation},
   author={Wu, Yicheng and Wu, Zhonghua and Shi, Hengcan and Picker, Bjoern and Chong, Winston and Cai, Jianfei},
   booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={3--13},
+  volume={14227},
   year={2023},
+  doi={https://doi.org/10.1007/978-3-031-43993-3\_1},
   organization={Springer, Cham}
   }
 ```
