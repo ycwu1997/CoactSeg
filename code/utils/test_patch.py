@@ -207,16 +207,24 @@ def calculate_metric_percase(pred, gt):
     label_preds = np.bincount(label_pred.flat)
     M, N = label_gts.shape[0], label_preds.shape[0]
     index = np.where(label_gts<11)
+    idx_offset = 0
     if index[0].size !=0:
         for idx in range(index[0].shape[0]):
-            mask = label_gt==index[0][idx]
+            mask = label_gt==index[0][idx]-idx_offset
             label_gt[mask]=0
+            # we need to close the gap after removing the label
+            label_gt[label_gt>index[0][idx]-idx_offset] -=1
+            idx_offset += 1
             M=M-1
     index = np.where(label_preds<11)
+    idx_offset = 0
     if index[0].size !=0:
         for idx in range(index[0].shape[0]):
-            mask = label_pred==index[0][idx]
+            mask = label_pred==index[0][idx]-idx_offset
             label_pred[mask]=0
+            # we need to close the gap after removing the label
+            label_pred[label_pred>index[0][idx]-idx_offset] -=1
+            idx_offset += 1
             N=N-1
     H_ij = np.zeros((M, N))
     for i in range(M):
